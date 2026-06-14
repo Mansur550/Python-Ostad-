@@ -44,4 +44,17 @@ print(name[::-1])  # Output: 'rusnaM' reverses the string
 print(name[::2])  # Output: 'Mnsr' takes every second character starting from index 0
 
 
+# Sting CLeanup
+course_name = "  ostad Ai ##booT#camp "
+print(course_name)
+course_name = course_name.strip()
+print(course_name)
 
+course_name= course_name.replace("#", "")
+print(course_name)
+
+course_name = course_name.title()
+print(course_name)
+
+a = "abcd23"
+a.isalnum() # Output: True (contains only alphanumeric characters)
