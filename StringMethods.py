@@ -9,3 +9,10 @@ print(text.replace(" ", "_"))  # Output: "_hello_world_"
 
 text2 = "Hello World"
 print(text2.replace("World", "Bangladesh"))
+print(len(text2))
+print(text2)
+print(text2.startswith("Hello"))  # Output: True
+print(text2.endswith("World"))    # Output: True
+print(text2.split())  # Output: ['Hello', 'World']
+
+
