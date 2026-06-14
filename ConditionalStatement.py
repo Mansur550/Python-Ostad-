@@ -53,3 +53,17 @@ if  temp >15 or is_sunny:
     print("Let's go out.")
 else:
     print("It's cold and not sunny, so it's risky to go outside.")
+
+
+num = int(input("Please enter any number "))
+
+if num > 0:
+    print("The number is positive")
+    root = num**0.5
+    print(f"The square root of {num} is {root}")
+elif num == 0:
+    print("The number is zero")
+    print("The square root of zero is zero")
+else:
+    print("The number is negative")
+    print("We cannot find the square root of a negative number")
