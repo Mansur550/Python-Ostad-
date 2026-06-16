@@ -110,3 +110,17 @@ while not success and count < 4:
 """
 9. 🏧 ATM PIN System (with limited attempts)
 """
+
+correct_pin = "1234"
+attempts = 0
+while attempts < 3:
+    entered_pin = input("Enter your PIN: ")
+    
+    if entered_pin == correct_pin:
+        print("Access granted.")
+        break
+    else:
+        print("Incorrect PIN. Try again.")
+        attempts += 1
+else:
+    print("Too many failed attempts. Account locked.")
