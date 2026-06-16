@@ -46,10 +46,28 @@ Two strings with same characters in different order.
 - Fried / Fired
 - Lemon / Melon
 """
-a=input("Enter first string: ")
-b=input("Enter second string: ")
+a="Act"
+b="Cat"
 
 if sorted(a.lower())== sorted(b.lower()):
     print(f"{a} and {b} are anagrams.")
 else:   
     print(f"{a} and {b} are not anagrams.")
+
+"""
+5. 📄 Application Log Data Parsing
+
+Used to extract useful info from raw logs (timestamps, errors, user actions).
+"""
+
+log = "2026-04-11 ERROR User login failed"
+
+parts = log.split()
+timestamp = parts[0]
+level = parts[1]
+message = "".join(parts[2:])
+
+print(timestamp)
+print(level)
+print(message)
+
