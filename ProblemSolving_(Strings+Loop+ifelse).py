@@ -74,3 +74,13 @@ print(message)
 """
 6. 🎓 Grade Evaluator
 """
+marks=88
+
+if marks >=80 and marks <=100:
+    print("A+")
+elif marks >=70 and marks <80:
+    print("A")
+elif marks >=60 and marks <70:
+    print("A-") 
+else:
+    print("Invalid marks")
