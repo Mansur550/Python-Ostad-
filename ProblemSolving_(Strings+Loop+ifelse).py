@@ -34,3 +34,22 @@ if text == reversed_text:
     print(f"{text} is a palindrome.") 
 else:
     print(f"{text} is not a palindrome.")
+
+"""
+4. 🔤 Anagram Check
+
+Two strings with same characters in different order.
+
+- Act / Cat
+- Below / Elbow
+- Cinema / Iceman
+- Fried / Fired
+- Lemon / Melon
+"""
+a=input("Enter first string: ")
+b=input("Enter second string: ")
+
+if sorted(a.lower())== sorted(b.lower()):
+    print(f"{a} and {b} are anagrams.")
+else:   
+    print(f"{a} and {b} are not anagrams.")
