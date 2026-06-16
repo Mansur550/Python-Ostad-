@@ -89,3 +89,22 @@ else:
 """
 7. 🎯 Number Guessing Game (using condition)
 """
+import random
+
+secret = random.randint(1,10)
+
+success = False
+count=0
+
+while not success and count < 4:
+    guess = int(input("Guess a number between 1 and 10: "))
+    
+    if guess == secret:
+        print("Hurray!")
+        success = True
+    
+    else:
+        print("Try again.")
+        count +=1
+
+    
