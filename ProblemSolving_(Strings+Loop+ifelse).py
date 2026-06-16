@@ -84,3 +84,8 @@ elif marks >=60 and marks <70:
     print("A-") 
 else:
     print("Invalid marks")
+
+
+"""
+7. 🎯 Number Guessing Game (using condition)
+"""
