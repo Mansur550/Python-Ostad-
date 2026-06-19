@@ -8,3 +8,9 @@ print(l1)
 print(mylist[8])
 
 fruitlist = ["Apple", "Banana", "Cherry", "Date", "Elderberry"]
+
+print(fruitlist[-5]) # Accessing first element
+
+print(fruitlist[::2])
+
+print(fruitlist[::-1]) # Reversing the list
