@@ -21,3 +21,7 @@ print(fruitlist)
 # insert with index positon in list
 fruitlist.insert(3, "Guava")
 print(fruitlist)
+
+#remove last item 
+fruitlist.pop()
+print(fruitlist)
