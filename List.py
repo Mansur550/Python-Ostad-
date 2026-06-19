@@ -25,3 +25,25 @@ print(fruitlist)
 #remove last item 
 fruitlist.pop()
 print(fruitlist)
+
+#remobve item with index position
+fruitlist.pop(2)
+print(fruitlist)
+
+len(fruitlist) # length of the list
+print(len(fruitlist))
+
+# remove_item = "Banana"
+
+fruitlist.remove("Banana") # remove item by value
+print(fruitlist)
+
+
+#add new list to the existing list
+new_fruits = ["Honeydew", "Indian Fig"]
+fruitlist.extend(new_fruits) # extend method is used to add elements of one list to another list
+print(fruitlist)
+
+extra = ["Jackfruit", "Kiwi"]
+fruitlist += extra # using + operator to add elements of one list to another list   
+print(fruitlist)
