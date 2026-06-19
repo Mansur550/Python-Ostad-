@@ -14,3 +14,10 @@ print(fruitlist[-5]) # Accessing first element
 print(fruitlist[::2])
 
 print(fruitlist[::-1]) # Reversing the list
+
+fruitlist.append("fig") # Adding an element to the end of the list
+print(fruitlist)
+
+# insert with index positon in list
+fruitlist.insert(3, "Guava")
+print(fruitlist)
