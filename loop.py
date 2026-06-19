@@ -26,3 +26,4 @@ pants=["Jens Pant", "Khaki Pant"]
 for shirt in shirts:
     for pant in pants:
         print(shirt,"+" ,pant)
+
