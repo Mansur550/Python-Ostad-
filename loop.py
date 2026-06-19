@@ -19,3 +19,10 @@ for i in range(1, 4):
     for j in range(1, 3):
         print(f" Outer loop i: {i}, Innar loop j: {j}")
 
+# Outfit genarator with loop
+shirts= ["Red T-stirt", "Black Panjabi", "Blue Shirt"]
+pants=["Jens Pant", "Khaki Pant"]
+
+for shirt in shirts:
+    for pant in pants:
+        print(shirt,"+" ,pant)
