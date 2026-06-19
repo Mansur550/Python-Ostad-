@@ -13,3 +13,9 @@ for char in word:
 print("Length of the string:", count)
 
 
+# Loop nesting
+
+for i in range(1, 4):
+    for j in range(1, 3):
+        print(f" Outer loop i: {i}, Innar loop j: {j}")
+
