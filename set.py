@@ -6,3 +6,9 @@ s.add(7)
 print(s)
 s.remove(3)
 print(s)
+
+old_subscriber = {"rafin@gmail.com", "shafin@gmail.com", "sadia@gmail.com", "hasan@gmail.com"}
+new_subscriber = {"sadia@gmail.com", "hasan@gmail.com", "sayem@gmail.com", "adnan@gmail.com"}
+# Total unique subscribers
+total_unique = old_subscriber.union(new_subscriber)
+print("Total Unique Subscribers:", total_unique)
