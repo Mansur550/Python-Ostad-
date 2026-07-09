@@ -20,3 +20,7 @@ print("Users shifted to new channel:", shifted_users)
 # Users who stayed only in old channel
 only_old = old_subscriber.difference(new_subscriber)
 print("Only in old channel:", only_old)
+
+# Users who are completely new
+only_new = new_subscriber.difference(old_subscriber)
+print("Only in new channel:", only_new)
