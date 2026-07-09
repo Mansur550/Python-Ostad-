@@ -16,3 +16,7 @@ print("Total Unique Subscribers:", total_unique)
 # Users who shifted to new channel (common subscribers)
 shifted_users = old_subscriber.intersection(new_subscriber)
 print("Users shifted to new channel:", shifted_users)
+
+# Users who stayed only in old channel
+only_old = old_subscriber.difference(new_subscriber)
+print("Only in old channel:", only_old)
