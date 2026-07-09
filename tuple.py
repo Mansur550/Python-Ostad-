@@ -14,3 +14,15 @@ print(type(t))
 x=(1,2,3,4,5,6)
 print(x.count(4))  #Number of 4
 print(x.index(5)) #gives the position of 5
+
+# tuple unpacking
+
+y= (1,3,4,"hello", "hi")
+a, b, c, d,e =y
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+
