@@ -12,3 +12,7 @@ new_subscriber = {"sadia@gmail.com", "hasan@gmail.com", "sayem@gmail.com", "adna
 # Total unique subscribers
 total_unique = old_subscriber.union(new_subscriber)
 print("Total Unique Subscribers:", total_unique)
+
+# Users who shifted to new channel (common subscribers)
+shifted_users = old_subscriber.intersection(new_subscriber)
+print("Users shifted to new channel:", shifted_users)
