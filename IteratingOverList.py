@@ -35,3 +35,8 @@ for item in students:
 # Another way to print keys
 for item in students.keys():
     print(item) 
+
+#print values
+
+for item in students.values():
+    print(item)
