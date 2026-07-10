@@ -15,3 +15,13 @@ fruitz = {"Apple", "Banana", "Mango"}
 
 for item in fruitz:
     print (f"Processing {item}")
+
+
+
+users = {"001", "002", "003"}
+
+for id in users:
+    print(f"processing {id}")
+
+
+
