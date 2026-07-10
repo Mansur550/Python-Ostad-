@@ -24,3 +24,22 @@ student_info = {
     "Shovon": {"roll": 123, "city": "Dhaka", "age": 30},
     "Sadia": {"roll": 127, "city": "New York", "age": 29}
 }
+
+
+# A dictionary works like a search engine.
+# You give a key, and it instantly returns the value.
+
+student_info = {
+    "Shovon": {"roll": 123, "city": "Dhaka", "age": 30},
+    "Sadia": {"roll": 127, "city": "New York", "age": 29}
+}
+
+# Get full info
+print(student_info.get("Shovon"))
+
+# Get nested value safely
+shovon_info = student_info.get("Shovon")
+print(shovon_info.get("city"))
+
+# Using default value if key does not exist
+print(student_info.get("Hasan", "Student not found"))
