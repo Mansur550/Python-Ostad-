@@ -40,3 +40,12 @@ for item in students.keys():
 
 for item in students.values():
     print(item)
+
+# Print key+values
+for item in students.items():
+    print(item) #output in tuple
+
+print(students.items()) #returns a list 
+
+for name, age in students.items():
+    print(f"Name:{name}\t| Age: {age}")
