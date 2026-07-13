@@ -28,11 +28,25 @@ print(f"After discount: {discount_price}")
 #Even number
 numbers = list(range(1,21))
 
-even_numbers= []
+# even_numbers= []
 
-for num in numbers:
-    if num %2==0:
-        even_numbers.append(num)
+# for num in numbers:
+#     if num %2==0:
+#         even_numbers.append(num)
+
+#comprehension:
+even_numbers= [num for num in numbers  if num %2==0]
 
 print(even_numbers)
+
+#filter+map
+num2= list(range(1,21))
+
+# sq_even_numbers=[]
+# for num in num2:
+#     if num % 2 == 0:
+#         sq_even_numbers.append(num**2) 
+
+sq_even_numbers=[num**2 for num in num2 if num % 2 == 0 ] 
+print(sq_even_numbers)
       
