@@ -17,11 +17,33 @@
 # - If tax rate changes, you must update everywhere
 
 # Solution->
+def greet():
+    print("Hello Cuastomer!")
 
 def calculate_final_price(price, item):
     tax_rate= 0.25
     total_price = price+ (price*tax_rate)
+    greet()
     print(f"Final price of {item} is: ",total_price )
 
 calculate_final_price(1000, "Tv")
 calculate_final_price(3500, "Solar Panel")
+
+def greeting(name):
+    print(f"Hello {name}")
+    print(f"How are you {name}?")
+    return
+
+greeting("Mansur")
+
+# Default Parameter
+#A default parameter is a parameter that already has
+#a value assigned in the function definition.
+
+# If you don’t provide a value when calling the function,
+#  Python uses the default.
+def greet_name(name="Guest"):#here Guest is the defult value of name
+    print(f"Hello {name}")
+    
+greet_name("Mansur")
+greet_name()
