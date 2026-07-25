@@ -36,6 +36,7 @@ def greeting(name):
 
 greeting("Mansur")
 
+
 # Default Parameter
 #A default parameter is a parameter that already has
 #a value assigned in the function definition.
@@ -47,3 +48,16 @@ def greet_name(name="Guest"):#here Guest is the defult value of name
     
 greet_name("Mansur")
 greet_name()
+
+## Machine leaning Use Case
+
+## person -> age, sallary, family_member_count
+
+## data - normalize - 0 - 1 -> fed into ml model
+def normalize_data(value, max_value):
+    normalized =value/ max_value
+    n=f"Original Data: {value} | Normalised: {normalized}"
+    print(n)
+    return n
+result=normalize_data(25,89)
+print(result)
