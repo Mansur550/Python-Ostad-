@@ -4,4 +4,8 @@ user_mails= ["mansur@gmail.com", "dristy@gmail.com", "tahsin@gmail.com"]
 user_age= [22,20,21]
 
 for info in zip(user_id, user_name, user_mails, user_age):
-    print(info)
+    print(info) #here info is a tuple
+#tuple unpack
+
+for id, name, email, age in zip(user_id, user_name, user_mails, user_age):
+    print(id, name, email, age)
